@@ -1,0 +1,12 @@
+.socialLinks ul {
+  display: flex;
+}
+
+.socialLinks ul li {
+  padding: 0 5px;
+}
+
+.socialLinks ul li a {
+  color: rgb(45, 45, 40);
+  font-size: 13px;
+}

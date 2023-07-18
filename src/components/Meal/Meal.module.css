@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+.meal {
+  min-width: 30%;
+  height: 560px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 1.25rem;
+  margin-right: 5%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  width: calc(100% - 2rem);
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  overflow-y: hidden;
+}
+
+.description > div {
+  transform: translateY(175px);
+  background-color: #fff;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, .3);
+  transition: transform .4s;
+}
+
+.meal:hover .description > div {
+  transform: translateY(0);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time, .difficulty {
+  display: flex;
+  align-items: center;
+}
+
+.time span, .difficulty span {
+  margin-left: 5px;
+}
+
+.description .title {
+  font-family: Merriweather,serif;
+  font-weight: 400;
+  color: #060606;
+  font-size: 23px;
+  line-height: 1.48em;
+}
+
+.description .text {
+  font-family: Catamaran,sans-serif;
+  font-size: 16px;
+  line-height: 1.625em;
+  font-weight: 400;
+  color: #6b6768;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profilePicture {
+  width: 50px;
+  height: 50px;
+}
+
+.profilePicture img {
+  width: 100%;
+  height: 100%;
+}
+
+.username {
+  position: relative;
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #060606;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.entryDate {
+  position: relative;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1em;
+  color: #7b7b7b;
+}
+
+.bookmark {
+  width: 20px;
+  height: 20px;
+}
+
+.bookmark svg {
+  height: 100%;
+  width: 100%;
+}

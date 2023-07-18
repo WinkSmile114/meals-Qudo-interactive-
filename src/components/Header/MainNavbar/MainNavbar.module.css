@@ -1,0 +1,14 @@
+.navbar {
+  height: 48px;
+  padding: 0 7%;
+}
+
+.navbar > div {
+  height: 100%;
+  border-top: 1px solid #eae9e7;
+  border-bottom: 1px solid #eae9e7;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

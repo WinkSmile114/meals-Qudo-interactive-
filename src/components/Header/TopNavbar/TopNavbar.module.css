@@ -1,0 +1,67 @@
+.topArea {
+  background: #000;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7%;
+}
+
+.topArea ul {
+  display: flex;
+  height: 100%;
+}
+
+.topArea li {
+  height: 100%;
+}
+
+.topArea li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+}
+
+.topAreaLinks li a {
+  padding: 0 12.5px;
+}
+
+.topAreaLinks li:first-child a {
+  padding-left: 0;
+}
+
+.topAreaLinks li:last-child a {
+  padding-right: 0;
+}
+
+.topAreaLinks li a {
+  font-size: 14px;
+  color: rgba(255,255,255,.8);
+  transition: color .4s;
+}
+
+.topAreaLinks li a:hover {
+  color: #fff;
+}
+
+.login ul li:first-child {
+  margin-right: 15px;
+}
+
+.login ul li:last-child {
+  margin-left: 15px;
+}
+
+.login ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.login ul li a svg {
+  color: #fee86d;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
